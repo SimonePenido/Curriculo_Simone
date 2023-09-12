@@ -7,6 +7,30 @@ body {
     margin-bottom: 56px;
 }
 
+.menu{
+    text-align: right;
+}
+
+.menu li{
+    list-style-type: none;
+    background-color: #444;
+    margin: .8em;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a{
+    background-color: #c1bebe;
+    padding: 1em;
+    display: inline-block;
+}
+
+.menu a:hover{
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
 h1 {
     background-color: #acafd4;
     color: #061761;
